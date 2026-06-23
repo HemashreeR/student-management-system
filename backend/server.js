@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const { connect_db } = require("./db/studentDatabase");
 require('node:dns').setServers(['8.8.8.8','1.1.1.1'])
 
