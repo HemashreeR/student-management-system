@@ -1,14 +1,15 @@
 # Student Management System
 
-A full-stack CRUD application built using React.js, Node.js, Express.js, and MongoDB to manage student records.
+A full-stack CRUD application built using React.js, Node.js, Express.js, and MongoDB.
 
 ## Features
 
 * Add Student
-* View Students
-* Update Student Details
+* Update Student
 * Delete Student
-* Search by Name or Email
+* Search Student by Name or Email
+* Student Count
+* Toast Notifications
 
 ## Tech Stack
 
@@ -19,23 +20,23 @@ A full-stack CRUD application built using React.js, Node.js, Express.js, and Mon
 * Express.js
 * MongoDB
 
-## Installation
+## Screenshots
 
-### Frontend
+### Home Page
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+![Home Page](home-page.jpeg)
 
-### Backend
+### Search Functionality
 
-```bash
-cd backend
-npm install
-npm start
-```
+![Search Feature](search-feature.jpeg)
+
+### Update Student Details
+
+![Update Feature](update-feature.jpeg)
+
+### Toast Notification
+
+![Toast Message](toast-message.jpeg)
 
 ## Author
 
