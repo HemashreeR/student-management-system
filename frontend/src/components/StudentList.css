@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.stuDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    position: relative;
+    top: 15vh;
+    width: 95vw;
+    height: fit-content;
+    justify-content: center;
+
+    .totalDiv {
+        border-radius: .5em;
+        box-shadow: 5px 2px 10px 0px rgba(0, 0, 0, 0.3);
+        width: 95vw;
+        height: 9vh;
+        display: flex;
+        gap: .5em;
+        padding-left: 1em;
+        align-items: center;
+        justify-content: space-between;
+
+        .countDiv {
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+
+            .fa-users {
+                color: rgb(37, 85, 242);
+                font-size: 1.9em;
+                position: relative;
+                top: -.2em
+            }
+
+            .countHeding {
+                font-family: "poppins", sans-serif;
+                font-weight: 600;
+                font-size: large;
+            }
+
+            .count {
+                color: rgb(37, 85, 242);
+            }
+        }
+
+        .refBtnDiv {
+            /* background-color: red; */
+            height: 3vh;
+            margin: 0 2vw 2vw;
+            .refBtn {
+                background-color: rgb(37, 85, 242);
+                width: 5vw;
+                height: 5vh;
+                border: none;
+                border-radius: .5em;
+                color: white;
+                font-size: .8em;
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+    .stuList {
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        gap: 1em;
+        padding: 1em;
+        border-radius: .5em;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
+
+        .listHeading {
+            color: rgb(37, 85, 242);
+            font-family: 'poppins', sans-serif;
+            font-size: large;
+            font-weight: 600;
+        }
+
+        .tabelDiv {
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            overflow: auto;
+            scrollbar-width: none;
+            border-radius: .5em;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+
+            .stuTable {
+                width: 94vw;
+                height: fit-content;
+                border-radius: .5em;
+                border-collapse: collapse;
+            }
+
+            .tablehead,
+            .thd,
+            .tbr,
+            .tbd {
+                /* width: fit-content; */
+                height: 3em;
+                padding: .3em;
+                border: 1px solid rgba(0, 0, 0, 0.3);
+                font-family: "poppins", sans-serif;
+                font-size: small;
+                text-align: left;
+                /* padding-left: .3em; */
+            }
+
+            .tablehead {
+                font-size: medium;
+                font-family: "poppins", sans-serif;
+                background-color: rgba(37, 85, 242, 0.07);
+            }
+
+            .tbd {
+
+                .editBtn,
+                .delBtn {
+                    margin: .5em;
+                    margin-right: 2em;
+                    width: 5em;
+                    background-color: rgba(248, 191, 3, .7);
+                    height: 3em;
+                    border: none;
+                    border-radius: .5em;
+                    cursor: pointer;
+                }
+
+                .delBtn {
+                    background-color: rgba(255, 0, 0, .7);
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+
+
+    }
+}
